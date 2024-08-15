@@ -10,7 +10,7 @@ import { Form } from "@/components/ui/form";
 import { createUser } from "@/lib/actions/patient.actions";
 import { UserFormValidation } from "@/lib/validation";
 import "react-phone-number-input/style.css";
-import CustomFormField, { FormFieldType } from "../ui/CustomFormField";
+import CustomFormField, { FormFieldType } from "../CustomFormField";
 import SubmitButton from "../SubmitButton";
 
 export const PatientForm = () => {
@@ -89,3 +89,4 @@ export const PatientForm = () => {
     </Form>
   );
 };
+export default PatientForm;
